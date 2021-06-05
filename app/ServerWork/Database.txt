@@ -1,0 +1,29 @@
+CREATE DATABASE Locations;
+
+CREATE TABLE markers (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(60) NOT NULL,
+  lat FLOAT(10, 6) NOT NULL,
+  lng FLOAT(10, 6) NOT NULL
+) ENGINE = MYISAM;
+
+INSERT INTO markers (name, lat, lng) VALUES ('Площадь Маркса', '54.98223515923201', '82.89303500537005');
+INSERT INTO markers (name, lat, lng) VALUES ('Площадь Ленина', '55.030157055979025', '82.92241199905368');
+INSERT INTO markers (name, lat, lng) VALUES ('Аэропорт Толмачево', '55.00784790687896', '82.66807404248041');
+INSERT INTO markers (name, lat, lng) VALUES ('Краснообск', '54.92113057245174', '82.9897674628906');
+INSERT INTO markers (name, lat, lng) VALUES ('Кольцово', '54.92113057245174', '82.9897674628906');
+INSERT INTO markers (name, lat, lng) VALUES ('Дом-книжка', '55.062581886567905', '82.91247743426152');
+INSERT INTO markers (name, lat, lng) VALUES ('Восход', '55.08425139583292', '83.0546130543787');
+INSERT INTO markers (name, lat, lng) VALUES ('Раздольное', '55.05883777734317', '83.13117402849984');
+INSERT INTO markers (name, lat, lng) VALUES ('Станция Мочище', '55.15548058121229', '83.11881440935917');
+INSERT INTO markers (name, lat, lng) VALUES ('Вокзал Новосибирск-Восточный', '55.06686747454406', '82.9744471913416');
+INSERT INTO markers (name, lat, lng) VALUES ('Сад Кирова', '54.99101351436969', '82.86921876726933');
+INSERT INTO markers (name, lat, lng) VALUES ('Новомарусино', '55.03126340826786', '82.80943769274539');
+INSERT INTO markers (name, lat, lng) VALUES ('Красный Восток', '54.926460050939106', '82.8123559361536');
+INSERT INTO markers (name, lat, lng) VALUES ('Бердск', '54.761780109987996', '83.10652381180084');
+INSERT INTO markers (name, lat, lng) VALUES ('Обь', '54.98668401132537', '82.69590979812898');
+INSERT INTO markers (name, lat, lng) VALUES ('Криводановка', '55.08763744564365', '82.63960486648834');
+INSERT INTO markers (name, lat, lng) VALUES ('Приобский', '55.07266831638314', '82.76938086746492');
+INSERT INTO markers (name, lat, lng) VALUES ('Площадь Калинина', '55.059614978257535', '82.91254645584384');
+INSERT INTO markers (name, lat, lng) VALUES ('Площадь Кирова', '54.94221415598807', '82.89795523880282');
+INSERT INTO markers (name, lat, lng) VALUES ('Затулинский жилмассив', '54.93813754319145', '82.9149497151212');
