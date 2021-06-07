@@ -11,7 +11,7 @@ INSERT INTO markers (name, lat, lng) VALUES ('Площадь Маркса', '54.
 INSERT INTO markers (name, lat, lng) VALUES ('Площадь Ленина', '55.030157055979025', '82.92241199905368');
 INSERT INTO markers (name, lat, lng) VALUES ('Аэропорт Толмачево', '55.00784790687896', '82.66807404248041');
 INSERT INTO markers (name, lat, lng) VALUES ('Краснообск', '54.92113057245174', '82.9897674628906');
-INSERT INTO markers (name, lat, lng) VALUES ('Кольцово', '54.939919777129106', '83.18921876143185');
+INSERT INTO markers (name, lat, lng) VALUES ('Кольцово', '54.93991977712910', '83.1892187614318');
 INSERT INTO markers (name, lat, lng) VALUES ('Дом-книжка', '55.062581886567905', '82.91247743426152');
 INSERT INTO markers (name, lat, lng) VALUES ('Восход', '55.08425139583292', '83.0546130543787');
 INSERT INTO markers (name, lat, lng) VALUES ('Раздольное', '55.05883777734317', '83.13117402849984');
