@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //начальная инициализация нулевым меридианом
-        getJSON(HOST_ADDRESS+"index.php?lat=0&&lng=0");
+        getJSON(HOST_ADDRESS+"index.php?lat=0&lng=0");
         Mapbox.getInstance(this, getString(R.string.access_token));
         setContentView(R.layout.activity_main);
         mapView = (MapView) findViewById(R.id.mapView);
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
         //загрузка координат по текущей локации
         if((latitude!="")&&(longitude!=""))
-            getJSON(HOST_ADDRESS+"index.php?lat="+latitude+"&&lng="+longitude);
+            getJSON(HOST_ADDRESS+"index.php?lat="+latitude+"&lng="+longitude);
     }
 
     @Override
